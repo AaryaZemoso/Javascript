@@ -1,10 +1,10 @@
 // Q1. Write a program to demonstrate how a function can be passed as a parameter to another function.
 
 function performOperation(operation, ...args){
-    return operation(args);
+    return operation(...args);
 }
 
-function add(arr){
+function add(...arr){
     let sum = 0;
     for (let val of arr) {
         sum += val;
@@ -12,7 +12,7 @@ function add(arr){
     return sum;
 }
 
-function multiply(arr){
+function multiply(...arr){
     let totalVal = 1;
     for (let val of arr) {
         totalVal *= val;
