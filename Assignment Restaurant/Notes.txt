@@ -1,0 +1,42 @@
+Screen:
+    Split into 2 parts
+    1:5 ratio or 1:4 ratio
+
+    Tables & Menu
+
+Tables:
+    Search bar
+    List of Tables
+
+    Events:
+        onclick of individual table-
+            popup with list of menu items
+        onclick delete-
+            removes the menu item from the table orders
+        
+
+Table Search bar:
+    Searches Table
+
+Menu:
+    Search bar
+    List of Menu Items
+
+    ondrag-
+        should add into the table or increase the quantity
+
+Menu Search Bar:
+    Searches menu Items
+        based on name, course
+
+Menu Items:
+    id
+    name
+    course
+    price
+
+Table:
+    id
+    list of menu Items:
+        id
+        qty
